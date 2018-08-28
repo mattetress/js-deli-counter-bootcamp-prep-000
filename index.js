@@ -4,5 +4,7 @@ function takeANumber(lineLength, custName) {
   let line = [];
   line.push(custName);
   
-  return line, `Welcome, ${custName}. You are number ${lineLength + 1} in line.`;
+  return line, 
+  
+  return `Welcome, ${custName}. You are number ${lineLength + 1} in line.`;
 } 
